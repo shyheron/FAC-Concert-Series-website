@@ -1,0 +1,159 @@
+/*   
+Theme Name: FAC Concert Series website
+Theme URI: http://facconcertseries.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://facconcertseries.com
+Version: 1
+*/ 
+
+.navbar{
+    font-size: 0.875em;
+}
+
+.bg1{
+    background:url("images/homepage-bg.png"); /* add the background image */
+    background-size: cover;/*  make the image cover the whole div */
+    padding-bottom: 2%;
+    }
+
+    .tag{
+        color: #F7F4FA;
+        margin-top: 35%;
+    }
+
+    .tag h1{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+
+    .tag h3{
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .btn1{
+        background-color: #F7F4FA;
+        color: #855093;
+    }
+
+    .btn{
+        background-color: #582B80;
+        color: #F7F4FA;
+    }
+
+.artistbg{
+    background:url("images/artist-bg.png");
+    background-size: cover; 
+    padding: 2%;
+    color: #09090A;
+    }
+    
+    .aboutbg h2{
+        font-family: 'Lexend Deca', sans-serif;
+        color: #C2244A;
+    }
+
+    .aboutbg h3{
+        font-family: 'Lexend Deca', sans-serif;
+        color: #09090A;
+    }
+
+.morebg{
+    background-color: #F7F4FA;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #F7F4FA;
+    padding: 2%;
+    }
+        
+    .morebgsub{
+        background-color: #994E90;
+    }
+
+    .morebg h4{
+        color: #09090A;
+    }
+        
+    .readmore{
+        font-family: 'Lexend Deca', sans-serif;
+        display:block;
+        color: #09090A;
+        font-size: 0.9em;
+        margin-bottom: 30px; 
+    }
+
+.sub{
+    background:url("images/subscription.png");
+    background-size: cover; 
+    color: #F7F4FA;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 2%;
+}
+
+footer{
+    background-color: #09090A;
+    color: #F7F4FA;
+}
+
+.aboutbg{
+    background-image: url("images/aboutus-bg.png"); 
+    background-size: cover;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+    .tag1{
+        color: #F7F4FA;
+        margin-top: 15%;
+    }
+
+.welcomeinfo{
+    /* background-image: url("images/welcomebg.png");  */
+    background-size: cover;
+    color: #F7F4FA;
+    font-family: 'Lexend Deca', sans-serif;
+}
+    
+    .welcomeinfosub{
+        background-color: #09090A;
+    }
+
+.concertintro{
+    color: #C2244A;
+}
+
+.map{
+    background-color: #F7F4FA;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #F7F4FA;
+}
+
+    .mapsub{
+        background-color: #994E90;
+    }
+
+.ticketbg{
+    background: url(images/ticket-bg.png);
+    background-size: cover;
+}
+
+.covidinfo{
+    background-size: cover;
+    color: #F7F4FA;
+    font-family: 'Lexend Deca', sans-serif;
+}
+    
+    .covidinfosub{
+        background-color: #09090A;
+    }
+
+.ticketsummarybg{
+    background: url(images/ticketsummary-bg.png);
+    background-size: cover;
+}
+
+    .form-control.is-valid{
+        padding-right: calc(1.5em + 0.75rem);
+        margin-top: 10px;
+    }
+
+    
