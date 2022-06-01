@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<title>Title</title>
+</head>
+<body>
+
+    <header class="container-fluid ticketbg">   <!-- div for the main image the stretches to the edge of the page- -->
+        <div class="container"> <!-- keeps navbar inside the div -->
+          <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">FAC music series</a> <!-- add image -->
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artists</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        
+        <!-- HEADER-->
+        <div class="container text-center tag1"><!-- div that holds the content in the middle of the page-->
+            <h1>Get Tickets</h1><!--  the main tag line-->
+        </div><!-- container-->
+
+    </header>
+
+    <!-- BG1-->
+    <section class= "container-fluid covidinfo">
+        <div class="container text-center covidinfosub">
+            <h3>YOU ARE REQUIRED TO PROVIDE PROOF OF  YOUR ID AND COVID VACCINATION BEFORE ENTERING THE SITE</h3>
+
+            <h3>By continuing past this page and placing your order, you are agreeing to the Terms and Conditions of purchase and for this event</h3>
+        </div> 
+    </section>
+
+
+    <!-- BG2 LEFT -->
+    <section class="container-fluid ticketsummarybg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Personal Details</h3>
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                          <label for="fname">Full Name:</label>
+                          <input type="email" class="form-control" placeholder="Enter full name" id="fname">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Contact number:</label>
+                          <input type="password" class="form-control" placeholder="Enter contact number" id="cnumb">
+                        </div>
+                      </form>
+                      <h3>Payment Details</h3>
+                    <form action="/action_page.php" class="was-validated">
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Card" id="paymentdetails">
+                        <input type="email" class="form-control" placeholder="Paypal" id="paymentdetails">
+                        <input type="email" class="form-control" placeholder="Afterpay" id="paymentdetails">
+                      </div>
+                          <button type="submit" class="btn btn-primary">Confirm</button>
+                      </form>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h3>Order Summary</h3>
+                    <img class="img-fluid" alt="Artist" src="images/artists/Maatakitj.png">
+                  <p>Maatakitjz
+                  <br>2 April 4PM - 6PM
+                  <br>A little priarie song</p>
+                    
+                  <p>$50</p>
+                </div>
+            </div>
+          </div>
+</section>
+
+<!-- FOOTER-->
+<footer class="container-fluid"><!-- div for the main image to stretch s to the edge of the page-->
+    <div class="container"> <!-- div to hold the content in the middle of the page-->
+        <div class="row"> <!-- a row that gives us access to the BS columns-->
+          <div class="col-md-6 text-left">
+            <p>Stay Updated</p>
+            <a class= "socialmedia" href="#">Instagram
+            <br>Twitter
+            <br>Facebook</a>
+          </div>
+          <div class="col-md-6 text-right">
+            <p>Contact Us</p>
+            <p>Fremantle arts centre
+            <br>08 9432 9555
+            <br>artscentre@fremantle.wa.gov.au
+            </p>
+          </div><!-- row-->
+        </div><!-- container -->
+      </div><!-- container-fluid-->
+</footer>
