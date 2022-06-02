@@ -104,6 +104,18 @@ footer{
     .tag1{
         color: #F7F4FA;
         margin-top: 15%;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .smallpage_bg{
+        background-image: url("images/aboutus-bg.png");
+        background: cover;
+    }
+
+    .about-title{
+        color: #F7F4FA;
+        margin-top: 15%;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
 .welcomeinfo{
