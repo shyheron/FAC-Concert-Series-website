@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Home page
+    Template Name: FAC Concert Series Home page
     */
     ?>
 <?php get_header();?>   
