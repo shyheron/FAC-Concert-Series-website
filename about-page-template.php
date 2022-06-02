@@ -3,7 +3,7 @@
     Template Name: FAC Concert Series About
     */
     ?>
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php require_once('page_header.php'); ?>
 
 <!-- BG1-->
 <section class= "container-fluid welcomeinfo">
