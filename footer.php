@@ -2,11 +2,14 @@
             <div class="container"> <!-- div to hold the content in the middle of the page-->
                 <div class="row"> <!-- a row that gives us access to the BS columns-->
                   <div class="col-md-6 text-left">
+                      
                     <p>Stay Updated</p>
-                    <a class= "socialmedia" href="#">Instagram
-                    <br>Twitter
-                    <br>Facebook</a>
-                  </div>
+                    <ul>
+                    <li class= "socialmedia"> <a href="#">Instagram</a> </li>
+                    <li class= "socialmedia"> <a href="#">Twitter</li>
+                    <li class= "socialmedia"> <a href="#">Facebook</li>
+        </ul>  
+                </div>
                   <div class="col-md-6 text-right">
                     <p>Contact Us</p>
                     <p>Fremantle arts centre
@@ -17,7 +20,7 @@
                 </div><!-- container -->
               </div><!-- container-fluid-->
         </footer>
-        
+
         <?php wp_footer(); ?>
 
 </body>
