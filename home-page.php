@@ -57,28 +57,31 @@
         <!-- BG3 EVENTS-->
         <section class="container-fluid morebg">
             <div class="container morebgsub">
-                <!-- <h2 class="text-center">More Events</h2>
+            <h2><?php the_field('titleformoreevents'); ?></h2><!--  custom field for the moreevents content-->
                 <div class="row text-center">
                     
                      <div class="col-md-4">
-                        <img class="img-fluid" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/events/Adult art class.png" alt="-">
-                        <h4 class="more-title">Adult art courses</h4>
-                        <p>Adult art courses that cater for all abilities from absolute beginners to experienced creatives.</p>
-                        <a class= "readmore" href="#">Continue reading ></a>
+                        <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage1');?>">
+                        <h4 class="article-title"><?php the_field('moreventsname1'); ?></h4>
+                        <p class="article-p"><?php the_field('articleexcerpt1'); ?> </p>
+                        <!-- <p>Adult art courses that cater for all abilities from absolute beginners to experienced creatives.</p>
+                         --><a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore1">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-fluid" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/events/Kids art class.png" alt="-">
-                        <h4 class="more-title">Kids art courses</h4>
-                        <p>Classes for kids taught by highly skilled and experienced artists to ensure that your child gets the hands-on support and guidance needed to build their confidence and technical knowledge.</p>
-                        <a class= "readmore" href="#">Continue reading ></a>
+                        <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage2');?>">
+                        <h4 class="article-title"><?php the_field('moreventsname2'); ?></h4>
+                        <p class="article-p"><?php the_field('articleexcerpt2'); ?> </p>
+                        <!-- <p>Classes for kids taught by highly skilled and experienced artists to ensure that your child gets the hands-on support and guidance needed to build their confidence and technical knowledge.</p>
+                         --><a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore2">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-fluid" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/events/Food & crafts market.png" alt="-">
-                        <h4 class="more-title">Food & crafts market</h4>
-                        <p>Our concerts generally run alongside a series of food and crafts market for shopping. We also have our own little bar station just for you!</p>
-                        <a class= "readmore" href="#">Continue reading ></a>
+                        <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage3');?>">
+                        <h4 class="article-title"><?php the_field('moreventsname3'); ?></h4>
+                        <p class="article-p"><?php the_field('articleexcerpt3'); ?> </p>
+                        <!-- <p>Our concerts generally run alongside a series of food and crafts market for shopping. We also have our own little bar station just for you!</p>
+                         --><a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore3">Continue Reading</a>
                     </div>
-                    </div>  -->
+                    </div>  
 
                     <div class="text-center">
                         <a href="#" class="btn btn-default btn-lg">SEE ALL EVENTS</a>
