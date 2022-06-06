@@ -69,7 +69,6 @@ wp_nav_menu( array(
             <div class=" text-center tag"><!-- div that holds the content in the middle of the page-->
                       <h1>Live performances from Fremantle artists</h1><!--  the main tag line-->
                       <h3>January - October 2022, Fremantle</h3>
-                      <a href="#" class="btn1 btn-default btn-lg">LEARN MORE</a>
                       <a href="#" class="btn btn-default btn-lg">GET TICKETS</a>
                   </div>
                 </div><!-- container-->
