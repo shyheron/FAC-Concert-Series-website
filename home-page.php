@@ -9,7 +9,7 @@
             <!-- BG2 ARTISTS-->
         <section class="container-fluid artistbg">
             <div class="container">
-                <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
+                <h2><?php the_field('titleforartistlineup'); ?></h2><!--  custom field for the aboutme content-->
                 <div class="row text-center">
                 
                <!--  <div class="col-md-3">
