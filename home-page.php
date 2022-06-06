@@ -64,22 +64,19 @@
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage1');?>">
                         <h4 class="article-title"><?php the_field('moreventsname1'); ?></h4>
                         <p class="article-p"><?php the_field('articleexcerpt1'); ?> </p>
-                        <!-- <p>Adult art courses that cater for all abilities from absolute beginners to experienced creatives.</p>
-                         --><a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore1">Continue Reading</a>
+                        <a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore1">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage2');?>">
                         <h4 class="article-title"><?php the_field('moreventsname2'); ?></h4>
                         <p class="article-p"><?php the_field('articleexcerpt2'); ?> </p>
-                        <!-- <p>Classes for kids taught by highly skilled and experienced artists to ensure that your child gets the hands-on support and guidance needed to build their confidence and technical knowledge.</p>
-                         --><a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore2">Continue Reading</a>
+                        <a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore2">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage3');?>">
                         <h4 class="article-title"><?php the_field('moreventsname3'); ?></h4>
                         <p class="article-p"><?php the_field('articleexcerpt3'); ?> </p>
-                        <!-- <p>Our concerts generally run alongside a series of food and crafts market for shopping. We also have our own little bar station just for you!</p>
-                         --><a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore3">Continue Reading</a>
+                        <a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore3">Continue Reading</a>
                     </div>
                     </div>  
 
