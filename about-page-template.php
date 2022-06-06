@@ -15,32 +15,38 @@
     </section>
 
     <!-- BG2-->    
-    <section class="container-fluid concertintro">
-        <div class="container">
-        <h2 class="subheading text-center">The Concert Series</h2>
-          
-        <div class="row"> <!--  a row that gives us access to the BS columns-->
-            <div class="col-md-6">
-              <h3>Since the early 2000s, the Fremantle Arts Centre (FAC) has been a music venue for a range of Australian and international music acts. 
-                <br>Following another successful start to the 2021 season, the team at FAC, is dedicated to showcasing the very best of WA’s live music scene! 
-              </h3>
-              </div>
-            <div class="col-md-6">
-              <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
-            </div>
-          </div>
+    <section class="container-fluid aboutintro">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        <h3>History</h3>
+        <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
+      </div>
+      <div class="col-md-6">
+        <p>Fremantle Arts Centre (FAC)...</p>
+        <a class= "readmore" href="#">Continue reading ></a>
+      </div> 
 
-          <div class="row"> <!--  a row that gives us access to the BS columns-->
-            <div class="col-md-6">
-                <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/craftgroupactivity.png">
-            </div>
-            <div class="col-md-6">
-                <h3>Our new FAC concert series website aims to promote and facilitate sustainable growth of the music scene in Fremantle whilst preserving the heritage and artistic context of the Fremantle Art Centre.
-                    <br>Our concerts generally run alongside a series of food and crafts market for shopping. We also have our own little bar station just for you!
-                </h3>
-          </div>
-        </div>
-</section>
+      <div class="col-md-6">
+        <h3>Visual Arts</h3>
+        <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
+      </div>
+      <div class="col-md-6">
+        <p>Fremantle Arts Centre (FAC)...</p>
+        <a class= "readmore" href="#">Continue reading ></a>
+      </div>
+
+      <div class="col-md-6">
+        <h3>Family Fun</h3>
+        <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
+      </div>
+      <div class="col-md-6">
+        <p>Fremantle Arts Centre (FAC)...</p>
+        <a class= "readmore" href="#">Continue reading ></a>
+      </div>
+    
+    </div>
+    <section>
 
 
 <!-- BG3-->  
