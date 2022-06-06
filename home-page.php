@@ -68,13 +68,13 @@
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreeventsimage2');?>">
-                        <h4 class="article-title"><?php the_field('moreventsname2'); ?></h4>
+                        <h4 class="article-title"><?php the_field('moreeventsname2'); ?></h4>
                         <p class="article-p"><?php the_field('moreeventsexcerpt2'); ?> </p>
                         <a href="<?php the_field('moreeventsreadmore2'); ?>" class="moreeventsreadmore2">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreeventsimage3');?>">
-                        <h4 class="article-title"><?php the_field('moreventsname3'); ?></h4>
+                        <h4 class="article-title"><?php the_field('moreeventsname3'); ?></h4>
                         <p class="article-p"><?php the_field('moreeventsexcerpt3'); ?> </p>
                         <a href="<?php the_field('moreeventsreadmore3'); ?>" class="moreeventsreadmore3">Continue Reading</a>
                     </div>
