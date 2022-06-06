@@ -19,30 +19,30 @@
     <div class="container">
       <div class="row">
       <div class="col-md-6">
-        <h3>History</h3>
-        <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
+      <h4 class="article-title"><?php the_field('titleforhistory'); ?></h4>
+        <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('historyimage');?>">
       </div>
       <div class="col-md-6">
-        <p>Fremantle Arts Centre (FAC)...</p>
-        <a class= "readmore" href="#">Continue reading ></a>
+        <p class="article-p"><?php the_field('historyexcerpt'); ?> </p>
+        <a href="<?php the_field('historyreadmore'); ?>" class="readmore">Continue Reading</a>
       </div> 
 
       <div class="col-md-6">
-        <h3>Visual Arts</h3>
-        <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
+      <h4 class="article-title"><?php the_field('titleforvisualarts'); ?></h4>
+        <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('visualartsimage');?>">
       </div>
       <div class="col-md-6">
-        <p>Fremantle Arts Centre (FAC)...</p>
-        <a class= "readmore" href="#">Continue reading ></a>
+        <p class="article-p"><?php the_field('visualartsexcerpt'); ?> </p>
+        <a href="<?php the_field('visualartsreadmore'); ?>" class="readmore">Continue Reading</a>
       </div>
 
       <div class="col-md-6">
-        <h3>Family Fun</h3>
-        <img class="img-fluid" alt="portrait" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/concert/enjoyingmusic.png">
+      <h4 class="article-title"><?php the_field('titleforspecialevents'); ?></h4>
+        <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('specialeventsimage');?>">
       </div>
       <div class="col-md-6">
-        <p>Fremantle Arts Centre (FAC)...</p>
-        <a class= "readmore" href="#">Continue reading ></a>
+        <p class="article-p"><?php the_field('specialeventsexcerpt'); ?> </p>
+        <a href="<?php the_field('specialeventsreadmore'); ?>" class="readmore">Continue Reading</a>
       </div>
     
     </div>
