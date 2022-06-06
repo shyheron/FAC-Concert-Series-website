@@ -63,20 +63,20 @@
                      <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage1');?>">
                         <h4 class="article-title"><?php the_field('moreventsname1'); ?></h4>
-                        <p class="article-p"><?php the_field('articleexcerpt1'); ?> </p>
-                        <a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore1">Continue Reading</a>
+                        <p class="article-p"><?php the_field('moreeventsexcerpt1'); ?> </p>
+                        <a href="<?php the_field('moreeventsreadmore1'); ?>" class="moreeventsreadmore1">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage2');?>">
                         <h4 class="article-title"><?php the_field('moreventsname2'); ?></h4>
-                        <p class="article-p"><?php the_field('articleexcerpt2'); ?> </p>
-                        <a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore2">Continue Reading</a>
+                        <p class="article-p"><?php the_field('moreeventsexcerpt2'); ?> </p>
+                        <a href="<?php the_field('moreeventsreadmore2'); ?>" class="moreeventsreadmore2">Continue Reading</a>
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('moreventsimage3');?>">
                         <h4 class="article-title"><?php the_field('moreventsname3'); ?></h4>
-                        <p class="article-p"><?php the_field('articleexcerpt3'); ?> </p>
-                        <a href="<?php the_field('readmore'); ?>" class="moreeventsreadmore3">Continue Reading</a>
+                        <p class="article-p"><?php the_field('moreeventsexcerpt3'); ?> </p>
+                        <a href="<?php the_field('moreeventsreadmore3'); ?>" class="moreeventsreadmore3">Continue Reading</a>
                     </div>
                     </div>  
 
