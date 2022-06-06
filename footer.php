@@ -5,8 +5,8 @@
                     <p>Stay Updated</p>
                     <ul>
                     <li class= "socialmedia"> <a href="#">Instagram</a> </li>
-                    <li class= "socialmedia"> <a href="#">Twitter</li>
-                    <li class= "socialmedia"> <a href="#">Facebook</li>
+                    <li class= "socialmedia"> <a href="#">Twitter</a> </li>
+                    <li class= "socialmedia"> <a href="#">Facebook</a> </li>
                      </ul>
                 </div>
                   <div class="col-md-6 text-right">
