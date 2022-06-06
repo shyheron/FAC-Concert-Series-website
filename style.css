@@ -32,14 +32,10 @@ Version: 1
         font-family: 'Lexend Deca', sans-serif;
     }
 
-    .btn1{
-        background-color: #F7F4FA;
-        color: #855093;
-    }
-
     .btn{
         background-color: #582B80;
         color: #F7F4FA;
+        border-radius: 0%;
     }
 
 .artistbg{
@@ -49,7 +45,27 @@ Version: 1
     color: #09090A;
     }
     
-    .aboutbg h2{
+    .artistbg h2{
+        font-family: 'Lexend Deca', sans-serif;
+        color: #09090A; 
+        padding-bottom: 1.5%;
+    }
+
+    .artistbg h3{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 1.5em;
+        color: #855093;
+        padding-top: 2%;
+    }
+
+    .artistbg h4{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 1.1em;
+        color: #09090A;
+        padding-top: 1.5%;
+    }
+
+    /* .aboutbg h2{
         font-family: 'Lexend Deca', sans-serif;
         color: #C2244A;
     }
@@ -57,27 +73,39 @@ Version: 1
     .aboutbg h3{
         font-family: 'Lexend Deca', sans-serif;
         color: #09090A;
-    }
+    } */
 
 .morebg{
     background-color: #F7F4FA;
     font-family: 'Lexend Deca', sans-serif;
     color: #F7F4FA;
-    padding: 2%;
     }
         
     .morebgsub{
         background-color: #994E90;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .morebg h2{
+        padding-bottom: 2%;
     }
 
     .morebg h4{
+        color: #09090A;
+        padding-top: 2.5%;
+    }
+
+    .morebgdesc{
         color: #09090A;
     }
         
     .readmore{
         font-family: 'Lexend Deca', sans-serif;
         display:block;
-        color: #09090A;
+        color: #F7F4FA;
         font-size: 0.9em;
         margin-bottom: 30px; 
     }
@@ -95,8 +123,14 @@ footer{
     color: #F7F4FA;
 }
 
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
 .aboutbg{
-    background-image: url("images/aboutus-bg.png"); 
+    background-image: url("images/about-bg.png"); 
     background-size: cover;
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -107,7 +141,7 @@ footer{
         font-family: 'Lexend Deca', sans-serif;
     }
 
-    .smallpage_bg{
+    /* .smallpage_bg{
         background-image: url("images/aboutus-bg.png");
         background: cover;
     }
@@ -116,7 +150,7 @@ footer{
         color: #F7F4FA;
         margin-top: 15%;
         font-family: 'Lexend Deca', sans-serif;
-    }
+    } */
 
 .welcomeinfo{
     /* background-image: url("images/welcomebg.png");  */
@@ -133,6 +167,11 @@ footer{
     color: #C2244A;
 }
 
+    .concertintro h2{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
 .map{
     background-color: #F7F4FA;
     font-family: 'Lexend Deca', sans-serif;
@@ -141,6 +180,13 @@ footer{
 
     .mapsub{
         background-color: #994E90;
+        padding-top: 2%;
+    }
+
+    .map h2{
+        padding-bottom: 2%;
+        padding-right: 0%;
+        padding-left: 0%;
     }
 
 .ticketbg{
@@ -161,11 +207,10 @@ footer{
 .ticketsummarybg{
     background: url(images/ticketsummary-bg.png);
     background-size: cover;
+    padding-bottom: 2%;
 }
 
     .form-control.is-valid{
         padding-right: calc(1.5em + 0.75rem);
         margin-top: 10px;
     }
-
-    
