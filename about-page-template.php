@@ -3,7 +3,7 @@
     Template Name: FAC Concert Series About
     */
     ?>
-<?php require_once('page_header.php'); ?>
+<?php require_once('about_page_header.php'); ?>
 
 <!-- BG1-->
 <section class= "container-fluid welcomeinfo">
