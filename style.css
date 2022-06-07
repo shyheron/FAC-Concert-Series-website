@@ -17,6 +17,11 @@ Version: 1
     padding-bottom: 2%;
     }
 
+    .logo{
+        max-width: 30.52%;
+        height: auto;
+    }
+
     .tag{
         color: #F7F4FA;
         margin-top: 35%;
