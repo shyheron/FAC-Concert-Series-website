@@ -141,6 +141,12 @@ footer{
         font-family: 'Lexend Deca', sans-serif;
     }
 
+    .aboutpage_bg{
+        background-image: url("images/about-bg.png"); 
+        background-size: cover;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
     /* .aboutpage_bg{
         background-image: url("images/aboutus-bg.png");
         background: cover;
