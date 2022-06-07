@@ -1,4 +1,4 @@
-<?php require_once('artist-post-header.php'); ?>
+<?php require_once('history-post-header.php'); ?>
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
