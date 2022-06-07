@@ -41,7 +41,7 @@
         <div class="container"> <!-- keeps navbar inside the div -->
           <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">FAC music series</a> <!-- add image -->
+            <img class="img-fluid" alt=“logo” src="<?php the_field('logo');?>">
           
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
