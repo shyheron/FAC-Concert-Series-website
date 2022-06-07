@@ -200,6 +200,11 @@ footer{
     background-size: cover;
 }
 
+    .ticket_bg{
+        background: url(images/ticket-bg.png);
+        background-size: cover; 
+    }
+
 .covidinfo{
     background-size: cover;
     color: #F7F4FA;
