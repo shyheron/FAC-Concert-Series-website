@@ -215,9 +215,9 @@ footer{
         margin-top: 10px;
     }
 
-.artistpost_bg{
+.history_bg{
     width: 100%;
-    background: url(images/artistpostheader-bg.png);
+    background: url(images/about-bg.png);
     background-size: cover;
     height: 40vh; /* do we need this? */
 }
