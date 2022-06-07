@@ -3,7 +3,7 @@
             <!-- BG2 ARTISTS-->
         <section class="container-fluid artistbg">
             <div class="container">
-                <h2 class="text-center">Artist Lineup</h2>
+                <h2 class="more-title">Artist Lineup</h2>
                 <div class="row text-center"><!--  a row that gives us access to the BS columns-->
                 
                 <div class="col-md-3">
@@ -51,7 +51,7 @@
         <!-- BG3 EVENTS-->
         <section class="container-fluid morebg">
             <div class="container morebgsub">
-                <h2 class="text-center">More Events</h2>
+                <h2 class="more-title">More Events</h2>
                 <div class="row text-center"><!--  a row that gives us access to the BS columns-->
                     
                     <div class="col-md-4">
