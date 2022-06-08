@@ -37,8 +37,9 @@
 </head>
 <body>
 
-    <header class="container-fluid aboutpage_bg">   <!-- div for the main image the stretches to the edge of the page- -->
-        <div class="container"> <!-- keeps navbar inside the div -->
+    <!-- <header class="container-fluid aboutpage_bg"> -->
+    <header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('aboutbackgroundimage') ?>);">
+    <div class="container"> <!-- keeps navbar inside the div -->
           <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#">FAC music series</a> <!-- add image -->
@@ -71,8 +72,8 @@
           </nav>
     
             <!-- BG1 TAGLINE-->
-            <div class="text-center tag1"><!-- div that holds the content in the middle of the page-->
-                  <h2><?php the_field('abouttagline'); ?></h2>
+            <div class="text-center tag1"><!-- div that holds the content in the middle of the page-->     
+            <h2 class="abouttitle"><?php the_field('abouttagline'); ?></h2>
                 </div><!-- container-->
 
                 <?php wp_head(); ?> <!-- very important that this is added--> 
