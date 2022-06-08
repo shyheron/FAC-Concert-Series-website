@@ -72,8 +72,8 @@
     
             <!-- BG1 TAGLINE-->
             <div class="text-center tag1"><!-- div that holds the content in the middle of the page-->
-                      <!-- <h1 class="about-title">Live performances from Fremantle artists</h1> 
-                      <h3>January - October 2022, Fremantle</h3>
+                      <h1 class="about-title">History</h1> 
+                      <!-- <h3>January - October 2022, Fremantle</h3>
                       <a href="#" class="btn1 btn-default btn-lg">LEARN MORE</a>
                       <a href="#" class="btn btn-default btn-lg">GET TICKETS</a> -->
                   </div>
