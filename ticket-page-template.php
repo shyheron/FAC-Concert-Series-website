@@ -20,7 +20,10 @@
       <div class="col-md-6 text-center">
         <h3 class="article-title"><?php the_field('ordersummary'); ?></h3>
         <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('ordersummaryimage');?>">
-        <p class="article-p"><?php the_field('ordersummaryexcerpt'); ?> </p>
+        <p class="article-p"><?php the_field('ordername'); ?> </p>
+        <p class="article-p"><?php the_field('ordersdateandtime'); ?> </p>
+        <p class="article-p"><?php the_field('ordersongtitle'); ?> </p>
+        <p class="article-p"><?php the_field('ordercost'); ?> </p>
         </div>
       <div class="col-md-6">
         <h3 class="article-title"><?php the_field('personaldetails'); ?></h3>
