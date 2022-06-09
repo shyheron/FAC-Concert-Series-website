@@ -14,7 +14,7 @@
                 
                 <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage1');?>">
-                    <h4 class="article-title"><?php the_field('artistname1'); ?></h4>
+                    <a href="<?php the_field('artistname1'); ?>" class="artistname">Anesu</a>
                 </div>
                 <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage2');?>">
