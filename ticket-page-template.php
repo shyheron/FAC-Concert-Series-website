@@ -16,6 +16,7 @@
     <!-- BG2 LEFT -->
 <section class="container-fluid ticketsummarybg">
   <div class="container">
+  <h2><?php the_field('titleforticketdetails'); ?></h2><!--  custom field for the ticketdetails content-->
     <div class="row">
       <div class="col-md-6 text-center">
         <h3 class="article-title"><?php the_field('ordersummary'); ?></h3>
