@@ -39,4 +39,17 @@ function footer_left() {
 }
 add_action( 'widgets_init', 'footer_left' );
 
+function footer_right() {
+
+  register_sidebar( array(
+    'name'          => 'footer-right',
+    'id'            => 'footer-r',
+    'before_widget' => '<div>',
+    'after_widget'  => '</div>',
+  
+  ) );
+
+}
+add_action( 'widgets_init', 'footer_right' );
+
 ?>
