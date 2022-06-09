@@ -32,19 +32,17 @@ $the_query = new WP_Query( $args ); ?>
  
     <!-- the loop -->
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <div class="thepost">
     <h2><?php the_title(); ?></h2> 
-    <div>
+   
 <?php
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('thumbnail');
                 } ?>
-<p class="about-text"><?php the_excerpt(); ?></p></div>
-    
-    <?php
-$link = get_field('link');
-if( $link ): ?>
-    <a class="button" href="<?php echo esc_url( $link ); ?>">Continue Reading</a>
-<?php endif; ?>
+<p class="about-text"><?php the_excerpt(); ?></p>
+   
+<a class="readmore" href="<?php the_permalink(); ?>"> CONTINUE READING</a> 
+</div>
     <?php endwhile; ?>
     <!-- end of the loop -->
  
