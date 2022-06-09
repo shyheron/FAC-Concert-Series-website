@@ -37,7 +37,7 @@
 </head>
 <body>
 
-    <header class="container-fluid ticket_bg">   <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid ticketbg">   <!-- div for the main image the stretches to the edge of the page- -->
         <div class="container"> <!-- keeps navbar inside the div -->
           <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
@@ -72,7 +72,7 @@
     
             <!-- BG1 TAGLINE-->
             <div class="text-center tag1"><!-- div that holds the content in the middle of the page-->
-                  <h2><?php the_field('tickettagline'); ?></h2>
+                  <h1><?php the_field('tickettagline'); ?></h1>
                 </div><!-- container-->
 
                 <?php wp_head(); ?> <!-- very important that this is added--> 
