@@ -166,15 +166,15 @@ footer{
     } */
 
 .welcomeinfo{
-    /* background-image: url("images/welcomebg.png");  */
+    background-image: url("images/Group-62.png");  
     background-size: cover;
     color: #F7F4FA;
     font-family: 'Lexend Deca', sans-serif;
 }
     
-    .welcomeinfosub{
-        background-color: #09090A;
-    }
+    /* .welcomeinfosub{
+        background-color: #09090A; 
+    } */
 
 .aboutintro{
     color: #C2244A;
