@@ -167,6 +167,7 @@ footer{
         background-image: url("images/about-bg.png"); 
         background-size: cover;
         font-family: 'Lexend Deca', sans-serif;
+        height: 30vh;
     }
 
     /* .aboutpage_bg{
@@ -202,11 +203,22 @@ footer{
 
     .aboutintro h2{
         padding-top: 2%;
-        padding-bottom: 2%;
     }
 
     .aboutintro p{
         color: #09090A;
+    }
+
+    img.attachment-thumbnail.size-thumbnail.wp-post-image{
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+    margin-left: 0%;
+    padding-left: 0%;
+    }
+
+    .thepost p{
+        margin-bottom: 30vh;
     }
 
 .map{
