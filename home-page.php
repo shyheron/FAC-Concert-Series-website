@@ -14,35 +14,35 @@
                 
                 <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage1');?>">
-                    <a href="<?php the_field('artistname1'); ?>" class="artistname">Anesu</a>
+                    <p><a href="<?php the_field('artistname1'); ?>" class="artistname">Anesu</a></p>
                 </div>
                 <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage2');?>">
-                    <h4 class="article-title"><?php the_field('artistname2'); ?></h4>
+                    <p><a href="<?php the_field('artistname2'); ?>" class="artistname">Ken Paolo and the Space Cadets</a></p>
                 </div>
                 <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage3');?>">
-                    <h4 class="article-title"><?php the_field('artistname3'); ?></h4>
+                    <p><a href="<?php the_field('artistname3'); ?>" class="artistname">Grievous Bodily Calm</a></p>
                 </div>
                 <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage4');?>">
-                    <h4 class="article-title"><?php the_field('artistname4'); ?></h4>
+                    <p><a href="<?php the_field('artistname4'); ?>" class="artistname">Michael Dunstan</a></p>
               </div>
                   <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage5');?>">
-                    <h4 class="article-title"><?php the_field('artistname5'); ?></h4>
+                    <p><a href="<?php the_field('artistname5'); ?>" class="artistname">Emily Barker</a></p>
                   </div>
                   <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage6');?>">
-                    <h4 class="article-title"><?php the_field('artistname6'); ?></h4>
+                    <p><a href="<?php the_field('artistname6'); ?>" class="artistname">Project Bexx</a></p>
                   </div>
                   <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage7');?>">
-                    <h4 class="article-title"><?php the_field('artistname7'); ?></h4>
+                    <p><a href="<?php the_field('artistname7'); ?>" class="artistname">Ocean Alley</a></p>
                   </div>
                   <div class="col-md-3">
                     <img class="img-fluid" alt=“artistimage” src="<?php the_field('artistimage8');?>">
-                    <h4 class="article-title"><?php the_field('artistname8'); ?></h4>
+                    <p><a href="<?php the_field('artistname8'); ?>" class="artistname">Maatakitj</a></p>
                   </div>
                 </div> 
 
