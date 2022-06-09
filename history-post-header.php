@@ -52,19 +52,19 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="http://206.189.45.97/~mesh21/sub3/about/">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Artists</a>
+                  <a class="nav-link" href="http://206.189.45.97/~mesh21/sub3/artists/">Artists</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Tickets</a>
+                  <a class="nav-link" href="http://206.189.45.97/~mesh21/sub3/tickets/">Tickets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="http://206.189.45.97/~mesh21/sub3/events/">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="http://206.189.45.97/~mesh21/sub3/contact/">Contact</a>
                 </li>
               </ul>
             </div>
@@ -72,11 +72,11 @@
     
             <!-- BG1 TAGLINE-->
             <div class="text-center tag1"><!-- div that holds the content in the middle of the page-->
-                      <h1 class="about-title">History</h1> 
-                      <!-- <h3>January - October 2022, Fremantle</h3>
+                      <!-- <h1 class="about-title">History</h1> 
+                      <h3>January - October 2022, Fremantle</h3>
                       <a href="#" class="btn1 btn-default btn-lg">LEARN MORE</a>
-                      <a href="#" class="btn btn-default btn-lg">GET TICKETS</a> -->
-                  </div>
+                      <a href="#" class="btn btn-default btn-lg">GET TICKETS</a> 
+                  </div>-->
                 </div><!-- container-->
 
                 <?php wp_head(); ?> <!-- very important that this is added--> 
