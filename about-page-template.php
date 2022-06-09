@@ -39,7 +39,12 @@ $the_query = new WP_Query( $args ); ?>
                     the_post_thumbnail('thumbnail');
                 } ?>
 <p class="about-text"><?php the_excerpt(); ?></p></div>
-    <a class="readmore" href="<?php the_permalink(); ?>"> CONTINUE READING</a>
+    
+    <?php
+$link = get_field('link');
+if( $link ): ?>
+    <a class="button" href="<?php echo esc_url( $link ); ?>">Continue Reading</a>
+<?php endif; ?>
     <?php endwhile; ?>
     <!-- end of the loop -->
  
