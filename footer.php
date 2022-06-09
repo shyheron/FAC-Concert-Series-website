@@ -3,6 +3,9 @@
                 <div class="row"> <!-- a row that gives us access to the BS columns-->
                   <div class="col-md-6 text-left">
                     <p>Stay Updated</p>
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
+endif; ?>
+
                     <ul>
                     <li class= "socialmedia"> <a href="#">Instagram</a> </li>
                     <li class= "socialmedia"> <a href="#">Twitter</a> </li>
