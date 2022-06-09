@@ -12,6 +12,11 @@ Version: 1
     font-size: 1.1em;
 }
 
+    .navbar-dark .navbar-nav .nav-link{
+        color: #09090A;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
 .bg1{
     background:url("images/homepage-bg.png"); /* add the background image */
     background-size: cover;/*  make the image cover the whole div */
@@ -56,7 +61,7 @@ Version: 1
         color: #09090A; 
         padding-bottom: 1.5%;
         text-align: center;
-        font-size: 1em;
+        font-weight: 800;
     }
 
     .artistbg h3{
@@ -66,11 +71,17 @@ Version: 1
         padding-top: 2%;
     }
 
-    .artist-name{
+    .artistbg h4{
         font-family: 'Lexend Deca', sans-serif;
         font-size: 1.1em;
         color: #09090A;
         padding-top: 1.5%; 
+    }
+
+    .artistname a{
+        color: #09090A;
+        font-size: 1.1em;
+        font-weight: 600;
     }
     
 /*     .artistbg h4{
@@ -203,13 +214,15 @@ footer{
 
     .aboutintro h2{
         padding-top: 2%;
+        text-align: center;
     }
 
     .aboutintro p{
         color: #09090A;
+        margin-bottom: 4vh;
     }
 
-    img.attachment-thumbnail.size-thumbnail.wp-post-image{
+    img.attachment-thumbnail.size-thumbnail.wp-post-image {
     float: left;
     margin-right: 10px;
     padding: 10px;
@@ -217,8 +230,9 @@ footer{
     padding-left: 0%;
     }
 
-    .thepost p{
-        margin-bottom: 30vh;
+    .thepost{
+        font-family: 'Lexend Deca', sans-serif;
+        padding-bottom: 10%;
     }
 
 .map{
@@ -238,6 +252,7 @@ footer{
         padding-bottom: 2%;
         padding-right: 0%;
         padding-left: 0%;
+        text-align: center;
     }
 
 .ticketbg{
@@ -287,6 +302,7 @@ footer{
     .ticketsummarybg h2{
         padding-top: 2%;
         padding-bottom: 2%;
+        text-align: center;
     }
 
 .history_bg{
