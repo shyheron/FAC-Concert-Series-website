@@ -17,6 +17,8 @@
     <!-- BG2-->    
     <section class="container-fluid aboutintro">
       <div class="container">
+    
+      <h2><?php the_field('titleforourstories'); ?></h2><!--  custom field for the ourstories content-->
 
       <?php 
 $args = array(
@@ -33,7 +35,7 @@ $the_query = new WP_Query( $args ); ?>
     <!-- the loop -->
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
     <div class="thepost">
-    <h2><?php the_title(); ?></h2> 
+    <h3><?php the_title(); ?></h3> 
    
 <?php
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -41,7 +43,7 @@ $the_query = new WP_Query( $args ); ?>
                 } ?>
 <p class="about-text"><?php the_excerpt(); ?></p>
    
-<a class="readmore" href="<?php the_permalink(); ?>"> CONTINUE READING</a> 
+<a class="readmore" href="<?php the_permalink(); ?>">Continue Reading</a> 
 </div>
     <?php endwhile; ?>
     <!-- end of the loop -->
@@ -72,7 +74,6 @@ $the_query = new WP_Query( $args ); ?>
             </p>  -->         
         </div>
         <div class="col-md-6">
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.8103122328293!2d115.7542612472965!3d-32.0473254394626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a163d6c8943f%3A0x9e3a40df81e5279e!2sFremantle%20Arts%20Centre!5e0!3m2!1sen!2sau!4v1653974060325!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
               <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('mapimage');?>">
             </div>
       </div>
