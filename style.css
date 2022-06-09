@@ -61,7 +61,7 @@ Version: 1
         color: #09090A; 
         padding-bottom: 1.5%;
         text-align: center;
-        font-weight: 800;
+        font-weight: 700;
     }
 
     .artistbg h3{
@@ -78,7 +78,7 @@ Version: 1
         padding-top: 1.5%; 
     }
 
-    .artistname a{
+    a.artistname{
         color: #09090A;
         font-size: 1.1em;
         font-weight: 600;
@@ -120,6 +120,7 @@ Version: 1
     .morebg h2{
         padding-bottom: 2%;
         text-align: center;
+        font-weight: 700;
     }
 
     .morebg h4{
@@ -214,12 +215,14 @@ footer{
 
     .aboutintro h2{
         padding-top: 2%;
+        padding-bottom: 2%;
         text-align: center;
+        font-weight: 700;
     }
 
     .aboutintro p{
         color: #09090A;
-        margin-bottom: 4vh;
+        margin-bottom: 3vh;
     }
 
     img.attachment-thumbnail.size-thumbnail.wp-post-image {
@@ -232,7 +235,6 @@ footer{
 
     .thepost{
         font-family: 'Lexend Deca', sans-serif;
-        padding-bottom: 10%;
     }
 
 .map{
@@ -253,6 +255,7 @@ footer{
         padding-right: 0%;
         padding-left: 0%;
         text-align: center;
+        font-weight: 700;
     }
 
 .ticketbg{
@@ -303,6 +306,7 @@ footer{
         padding-top: 2%;
         padding-bottom: 2%;
         text-align: center;
+        font-weight: 700;
     }
 
 .history_bg{
