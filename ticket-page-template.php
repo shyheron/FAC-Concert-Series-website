@@ -28,11 +28,11 @@
         <form action="/action_page.php">
             <div class="form-group">
               <label for="fname">Full Name:</label>
-              <input type="email" class="form-control" placeholder="Enter full name" id="fname">
+              <input type="text" class="form-control" placeholder="Enter full name" id="fname">
             </div>
             <div class="form-group">
-              <label for="pwd">Contact number:</label>
-              <input type="password" class="form-control" placeholder="Enter contact number" id="cnumb">
+              <label for="email">Email:</label>
+              <input type="text" class="form-control" placeholder="Enter email" id="email">
             </div>
           </form>
           <h3 class="article-title"><?php the_field('paymentdetails'); ?></h3>
