@@ -24,7 +24,7 @@ Version: 1
     }
 
     .logo{
-        max-width: 30.52%;
+        max-width: 32vh;
         height: auto;
     }
 
@@ -169,6 +169,8 @@ footer{
         color: #F7F4FA;
         margin-top: 15%;
         font-family: 'Lexend Deca', sans-serif;
+        font-size: 2.5em;
+        font-weight: 800;
     }
 
     .aboutbg h1{
@@ -267,6 +269,8 @@ footer{
         color: #582B80;
         margin-top: 15%;
         font-family: 'Lexend Deca', sans-serif;
+        font-size: 2.5em;
+        font-weight: 800;
     }
 
     /* .ticket_bg{
