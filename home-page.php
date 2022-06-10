@@ -48,7 +48,7 @@
 
                 <div class="text-center">
                   <h3>Enjoy a carefully curated lineup of the best local and touring musicians</h3>
-                  <a href="#" class="btn btn-default btn-lg">SEE THE FULL LIST</a>
+                  <a href="http://206.189.45.97/~mesh21/sub3/artists/" class="btn btn-default btn-lg">SEE THE FULL LIST</a>
                 </div> 
   
             </div>
@@ -81,7 +81,7 @@
                     </div>  
 
                     <div class="text-center">
-                        <a href="#" class="btn btn-default btn-lg">SEE ALL EVENTS</a>
+                        <a href="http://206.189.45.97/~mesh21/sub3/events/" class="btn btn-default btn-lg">SEE ALL EVENTS</a>
                       </div> 
 
                 </div><!-- container-->
