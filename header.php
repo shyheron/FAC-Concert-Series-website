@@ -70,7 +70,7 @@ wp_nav_menu( array(
             <div class=" text-center tag"><!-- div that holds the content in the middle of the page-->
                      <h1><?php the_field('maintagline'); ?></h1><!--  the main tag line-->
                      <h3><?php the_field('minitagline'); ?></h3>
-                      <a href="#" class="btn btn-default btn-lg">GET TICKETS</a>
+                      <a href="http://206.189.45.97/~mesh21/sub3/tickets/" class="btn btn-default btn-lg">GET TICKETS</a>
                   </div>
                 </div><!-- container-->
 
