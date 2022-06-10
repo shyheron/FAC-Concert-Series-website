@@ -43,7 +43,7 @@
           <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <!-- <a class="navbar-brand" href="#">FAC music series</a>  -->
-            <img class="img-fluid logo" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/logo.png" href="http://206.189.45.97/~mesh21/sub3/" alt="Logo">
+            <img class="img-fluid logo" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/logo.png" alt="Logo">
 
           
             <!-- Toggler/collapsibe Button -->
@@ -75,7 +75,7 @@
     
             <!-- BG1 TAGLINE-->
             <div class="text-center tag1"><!-- div that holds the content in the middle of the page-->     
-            <h2 class="abouttitle"><?php the_field('abouttagline'); ?></h2>
+            <h2 class="abouttitle"><?php the_field('titleforabout'); ?></h2>
                 </div><!-- container-->
 
                 <?php wp_head(); ?> <!-- very important that this is added--> 
