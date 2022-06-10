@@ -43,7 +43,7 @@
           <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <!-- <a class="navbar-brand" href="#">FAC music series</a>  -->
-            <img class="img-fluid logo" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/logo.png" alt="Logo">
+            <img class="img-fluid logo" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/logo.png" href="http://206.189.45.97/~mesh21/sub3/" alt="Logo">
 
           
             <!-- Toggler/collapsibe Button -->
