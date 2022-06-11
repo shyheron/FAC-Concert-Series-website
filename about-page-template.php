@@ -67,11 +67,7 @@ $the_query = new WP_Query( $args ); ?>
       
     <div class="row"> <!--  a row that gives us access to the BS columns-->
         <div class="col-md-6">
-          <p class="article-p"><?php the_field('mapexcerpt'); ?> </p>
-            <!-- <p>Free parking is available outside Fremantle Arts Centre on Finnerty Street, Ord Street and Vale Street
-            <br>Paid parking is available at Fremantle Leisure Centre (Opposite Fremantle Arts Centre on Ord Street)
-            <br>Public transport - Fremantle train station is located 1.2km away from Fremantle Arts Centre. You can walk from the station to Fremantle Arts Centre in approximately 15 minutes!
-            </p>  -->         
+          <p class="article-p"><?php the_field('mapexcerpt'); ?> </p>         
         </div>
         <div class="col-md-6">
               <img class="img-fluid" alt=“moreventsimage” src="<?php the_field('mapimage');?>">
