@@ -1,7 +1,7 @@
          <footer class="container-fluid"><!-- div for the main image to stretch s to the edge of the page-->
-            <div class="container"> <!-- div to hold the content in the middle of the page-->
-                <div class="row"> <!-- a row that gives us access to the BS columns-->
-                  <div class="col-md-6 text-left">
+            <div class="container footercolumn"> <!-- div to hold the content in the middle of the page-->
+                <div class="row footercolumn"> <!-- a row that gives us access to the BS columns-->
+                  <div class="col-md-6 text-center footercolumn">
                   <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
 endif; ?>
                     <!-- <p>Stay Updated</p>
@@ -11,7 +11,7 @@ endif; ?>
                     <li class= "socialmedia"> <a href="#">Facebook</a> </li>
                     </ul> -->
                 </div>
-                  <div class="col-md-6 text-right">
+                  <div class="col-md-6 text-center footercolumn">
                   <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-right') ) : 
 endif; ?>
                     <!-- <p>Contact Us</p>
