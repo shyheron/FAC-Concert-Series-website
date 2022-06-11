@@ -41,8 +41,8 @@
         <div class="container"> <!-- keeps navbar inside the div -->
           <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <!-- <img class="img-fluid" alt=“logo” src="<?php the_field('logo');?>"> --->
-            <img class="img-fluid logo" src="http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/logo.png" alt="Logo">
+            <!-- <img class="img-fluid" alt=“logo” src="<?php the_field('logo');?>"> -->
+            <a href="http://206.189.45.97/~mesh21/sub3/"><img class="img-fluid logo" src=http://206.189.45.97/~mesh21/sub3/wp-content/themes/FAC-Concert-Series-website/images/logo.png alt="Logo"></a>
           
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
