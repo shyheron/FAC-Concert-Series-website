@@ -83,6 +83,10 @@ Version: 1
         font-size: 1.1em;
         font-weight: 600;
     }
+
+   /*  .artistbgintro{
+        padding-top: 1.5%;
+    } */
     
 /*     .artistbg h4{
         font-family: 'Lexend Deca', sans-serif;
@@ -165,7 +169,7 @@ footer{
     font-family: 'Lexend Deca', sans-serif;
 }
 
-    .tag1{
+    .tag1 h1{
         color: #F7F4FA;
         margin-top: 15%;
         font-family: 'Lexend Deca', sans-serif;
@@ -213,6 +217,7 @@ footer{
     background-image: url("images/aboutintro-bg.png");  
     background-size: cover;
     font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 3%;
 }
 
     .aboutintro h2{
@@ -265,7 +270,7 @@ footer{
     background-size: cover;
 }
 
-    .tag2{
+    .tag2 h1{
         color: #582B80;
         margin-top: 15%;
         font-family: 'Lexend Deca', sans-serif;
