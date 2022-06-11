@@ -14,4 +14,10 @@
         text-align: center;
     }
 
+    .footercolumn{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
